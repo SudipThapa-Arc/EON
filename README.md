@@ -24,18 +24,19 @@ This project is an AI-powered image generator built using Flask, the OpenAI DALL
 2. Create and activate a virtual environment:
   ```bash
    python3 -m venv venv
-   source venv/bin/activate 
+   source venv/bin/activate
 ```
 3. Install the required dependencies:
-   ```pip install -r requirements.txt```
+   ```bash
+   pip install -r requirements.txt
 
 4. Set your OpenAI API key as an environment variable:
    ```bash
-    export OPENAI_API_KEY='your-api-key-here
+   client.OPENAI_API_KEY='your-api-key-here'
 
 5. Run the Flask app:
    ```bash 
-    flask run
+   flask run
 
 
 6. Enter a text prompt, and the app will generate and display the image based on your input.
