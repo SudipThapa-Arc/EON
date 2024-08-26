@@ -25,9 +25,8 @@ This project is an AI-powered image generator built using Flask, the OpenAI DALL
   ```bash
    python3 -m venv venv
    source venv/bin/activate 
-
-3. Install the required dependencies:
 ```
+3. Install the required dependencies:
    `pip install -r requirements.txt`
 
 4. Set your OpenAI API key as an environment variable:
