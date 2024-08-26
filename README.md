@@ -1,4 +1,4 @@
-# EON.AI Image Generator Using Flask, OpenAI DALL·E API, and Python
+# EON.AI Image Generator
 
 This project is an AI-powered image generator built using Flask, the OpenAI DALL·E API, and Python. With this tool, users can generate stunning, high-quality images based on simple text prompts. By leveraging OpenAI's advanced DALL·E model, this project makes it easy to create AI-generated images through a user-friendly web interface.
 
@@ -27,7 +27,7 @@ This project is an AI-powered image generator built using Flask, the OpenAI DALL
    source venv/bin/activate 
 ```
 3. Install the required dependencies:
-   `pip install -r requirements.txt`
+   ```pip install -r requirements.txt```
 
 4. Set your OpenAI API key as an environment variable:
    ```bash
