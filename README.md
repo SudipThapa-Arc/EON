@@ -20,15 +20,24 @@ This project is an AI-powered image generator built using Flask, the OpenAI DALL
    ```bash
    git clone https://github.com/yourusername/ai-image-generator.git
    cd ai-image-generator
+   
 2. Create and activate a virtual environment:
-`python3 -m venv venv
-source venv/bin/activate`  # On Windows use `venv\Scripts\activate`
+  ```bash
+python3 -m venv venv
+source venv/bin/activate 
+
 3. Install the required dependencies:
-   `pip install -r requirements.txt`
+  ```bash
+pip install -r requirements.txt
+
 4. Set your OpenAI API key as an environment variable:
-   `export OPENAI_API_KEY='your-api-key-here'`
+   ```bash
+  export OPENAI_API_KEY='your-api-key-here
+
 5. Run the Flask app:
-   `flask run`
+   ```bash 
+   flask run
+```
 
 6. Enter a text prompt, and the app will generate and display the image based on your input.
 
@@ -37,12 +46,7 @@ app.py: The main Flask application that routes user inputs and handles interacti
 templates/: Contains the HTML templates used by Flask for rendering the web interface.
 static/: Holds static files like CSS, JavaScript, or images.
 
+Thank You. 
 
-### Key Adjustments for README:
-- Added proper Markdown formatting for code blocks, headers, and lists.
-- Included step-by-step installation and setup instructions typical for README files.
-- Included a "Project Structure" section to give an overview of the files and directories.
-- Kept the description SEO-friendly while ensuring clarity for developers visiting your repo.
 
-You can directly paste this into your `README.md` file, and it will render cleanly on GitHub.
 
