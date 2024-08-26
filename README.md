@@ -18,17 +18,17 @@ This project is an AI-powered image generator built using Flask, the OpenAI DALL
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-image-generator.git
-   cd ai-image-generator
+   git clone https://github.com/SudipThapa-Arc/EON.git
+   cd EON
    
 2. Create and activate a virtual environment:
   ```bash
-  python3 -m venv venv
-  source venv/bin/activate 
+   python3 -m venv venv
+   source venv/bin/activate 
 
 3. Install the required dependencies:
-  ```
-pip install -r requirements.txt
+```
+   `pip install -r requirements.txt`
 
 4. Set your OpenAI API key as an environment variable:
    ```bash
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 5. Run the Flask app:
    ```bash 
-   flask run
+    flask run
 
 
 6. Enter a text prompt, and the app will generate and display the image based on your input.
